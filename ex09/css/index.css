@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+header .container {
+    display: flex;
+}
+
+header {
+    background-color: #35424A;
+    border-bottom: 3px solid #e84a1d;
+}
+
+#branding {
+    flex: 2;
+}
+
+nav {
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    height: fit-content;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+li {
+    padding-top: 15px;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+.current a {
+    color: #e84a1d;
+}
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-size: 15pt;
+}
+
+.highlight {
+    color: #e84a1d;
+}
+
+#branding h1 {
+    color: #f4f4f4;
+    display: block;
+    margin-top: 2.5%;
+    margin-left: 10%;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#showcase {
+    width: 100%;
+    height: 60vh;
+    background: url("../img/gigi-logo.png");
+    filter: grayscale(100%);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+#showcase .container {
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#showcase .container h1 {
+    display: block;
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 35pt;
+}
+
+#showcase .container p {
+    display: block;
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#newsletter {
+    background-color: #35424A;
+    display: flex;
+}
+
+#newsletter .container {
+    display: flex;
+    width: 100%;
+}
+
+#newsletter .container h1 {
+    flex: 1;
+    color: #f4f4f4;
+    padding-left: 5%;
+}
+
+form {
+    flex: 1;
+    margin-left: 40%;
+}
+
+input {
+    margin-top: 20px;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+}
+
+.button_1 {
+    background-color: #e84a1d;
+    color: #f4f4f4;
+    padding: 5.5px 5.5px 5.5px 5.5px;
+    font-weight: normal;
+}
+
+#boxes .container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    column-gap: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    color: white;
+    background-color: #e84a1d;
+    display: block;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    align-items: center;
+}
